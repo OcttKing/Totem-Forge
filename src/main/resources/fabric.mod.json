@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "octtkingstotemforge",
+	"version": "${version}",
+	"name": "octtkingstotemforge",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"OcttKing"
+	],
+	"contact": {
+		"homepage": "null",
+		"sources": "null.github"
+	},
+	"license": "CC BY-SA 4.0",
+	"icon": "assets/octtkingstotemforge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.octtking.totemforge.Octtkingstotemforge"
+		],
+		"client": [
+			"net.octtking.totemforge.OcttkingstotemforgeClient"
+		],
+		"fabric-datagen": [
+			"net.octtking.totemforge.OcttkingstotemforgeDataGenerator"
+		]
+	},
+	"mixins": [
+		"octtkingstotemforge.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
