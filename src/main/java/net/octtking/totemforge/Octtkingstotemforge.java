@@ -14,3 +14,5 @@ public class Octtkingstotemforge implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 	}
 }
+
+//Change
