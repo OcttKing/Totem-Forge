@@ -11,10 +11,12 @@ import net.minecraft.util.Identifier;
 import net.octtking.totemforge.Octtkingstotemforge;
 
 public class ModItems {
-    public static final Item ISITEM = registerItem("isitemname", new Item(new FabricItemSettings()));
+    public static final Item ISITEMNAME = registerItem("isitemname", new Item(new FabricItemSettings()));
+    public static final Item SLAGCHUNK = registerItem("end_stone_slag_chunk", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ISITEM);
+        entries.add(ISITEMNAME);
+        entries.add(SLAGCHUNK);
     }
 
     private static Item registerItem(String name, Item item) {
