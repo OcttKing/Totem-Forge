@@ -2,7 +2,8 @@
   "variants": {
     "": [
     {
-      "model": "octtkingstotemforge:block/end_stone_slag_block"
+      "model": "octtkingstotemforge:block/end_stone_slag_block",
+		"y": 0
     },
 	{
 	  "model": "octtkingstotemforge:block/end_stone_slag_block",
@@ -13,7 +14,7 @@
 	  "y": 180
 	},
 	{
-	  "model": "mocttkingstotemforge:block/end_stone_slag_block",
+	  "model": "octtkingstotemforge:block/end_stone_slag_block",
 	  "y": 270
 	}
   ]
