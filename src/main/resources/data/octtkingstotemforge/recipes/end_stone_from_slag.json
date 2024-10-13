@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "octtkingstotemforge:end_stone_slag_chunk"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_stone"
+  }
+}
