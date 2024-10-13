@@ -1,6 +1,7 @@
 {
   "item.octtkingstotemforge.isitemname": "Item Name",
   "item.octtkingstotemforge.end_stone_slag_chunk": "End Stone Slag Chunk",
+  "block.octtkingstotemforge.end_stone_slag_block": "End Stone Slag",
 
   "itemgroup.totemforge": "TotemForge"
 }

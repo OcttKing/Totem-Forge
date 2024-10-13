@@ -2,6 +2,7 @@ package net.octtking.totemforge;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.octtking.totemforge.block.ModBlocks;
 import net.octtking.totemforge.item.ModItemGroups;
 import net.octtking.totemforge.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class Octtkingstotemforge implements ModInitializer {
 		//LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registermodblocks();
 	}
 }

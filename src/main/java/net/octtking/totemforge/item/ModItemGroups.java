@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.octtking.totemforge.Octtkingstotemforge;
+import net.octtking.totemforge.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup TOTEM_FORGE_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -16,7 +17,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.totemforge"))
                     .icon(() -> new ItemStack(Items.TOTEM_OF_UNDYING)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SLAGCHUNK);
+                        entries.add(ModBlocks.END_STONE_SLAG_BLOCK);
                         entries.add(ModItems.ISITEMNAME);
+
+
 
                     }).build());
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "octtkingstotemforge:block/end_stone_slag_top",
+    "side": "octtkingstotemforge:block/end_stone_slag_side"
+  }
+}
