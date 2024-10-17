@@ -9,14 +9,18 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.octtking.totemforge.Octtkingstotemforge;
+import net.octtking.totemforge.item.custom.IsItemClassItem;
 
 public class ModItems {
-    public static final Item ISITEMNAME = registerItem("isitemname", new Item(new FabricItemSettings()));
+    public static final Item ISITEMNAME = registerItem("isitemname",
+            new IsItemClassItem(new FabricItemSettings().maxDamage(1)));
     public static final Item SLAGCHUNK = registerItem("end_stone_slag_chunk", new Item(new FabricItemSettings()));
+    public static final Item SLAGBUCKET = registerItem("end_stone_slag_bucket", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(ISITEMNAME);
-        entries.add(SLAGCHUNK);
+      //  entries.add(ISITEMNAME);
+     //   entries.add(SLAGCHUNK);
+      //  entries.add(SLAGBUCKET)
     }
 
     private static Item registerItem(String name, Item item) {
