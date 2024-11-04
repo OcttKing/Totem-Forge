@@ -3,7 +3,7 @@
 	"id": "octtkingstotemforge",
 	"version": "${version}",
 	"name": "octtkingstotemforge",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod is about making the standard survival experience easier with reclaiming fallen items",
 	"authors": [
 		"OcttKing"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "null",
 		"sources": "null.github"
 	},
-	"license": "CC BY-SA 4.0",
+	"license": "MIT",
 	"icon": "assets/octtkingstotemforge/icon.png",
 	"environment": "*",
 	"entrypoints": {
