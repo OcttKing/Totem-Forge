@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " I ",
+    "#B#",
+    " # "
+  ],
+    "key": {
+      "#": {
+        "item": "minecraft:yellow_stained_glass"
+      },
+       "I": {
+        "item": "minecraft:iron_block"
+       },
+     "B": {
+       "item": "minecraft:experience_bottle"
+     }
+  },
+  "result": {
+    "item": "octtkingstotemforge:yellow_carafe"
+  }
+}
