@@ -49,8 +49,8 @@ public class ModItems {
     //public static final Item CYAN_CARAFE = registerItem("cyan_carafe", new Item(new FabricItemSettings()));
     //public static final Item FILLED_CYAN_CARAFE = registerItem("filled_cyan_carafe", new Item(new FabricItemSettings()));
 
-    //public static final Item LIGHT_BLUE_CARAFE = registerItem("light_blue_carafe", new Item(new FabricItemSettings()));
-    //public static final Item FILLED_LIGHT_BLUE_CARAFE = registerItem("filled_light_blue_carafe", new Item(new FabricItemSettings()));
+    public static final Item LIGHT_BLUE_CARAFE = registerItem("light_blue_carafe", new Item(new FabricItemSettings()));
+    public static final Item FILLED_LIGHT_BLUE_CARAFE = registerItem("filled_light_blue_carafe", new Item(new FabricItemSettings()));
 
     public static final Item BLUE_CARAFE = registerItem("blue_carafe", new Item(new FabricItemSettings()));
     public static final Item FILLED_BLUE_CARAFE = registerItem("filled_blue_carafe", new Item(new FabricItemSettings()));

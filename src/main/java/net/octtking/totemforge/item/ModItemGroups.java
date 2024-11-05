@@ -33,7 +33,7 @@ public class ModItemGroups {
                         //entries.add(ModItems.LIME_CARAFE);
                         entries.add(ModItems.GREEN_CARAFE);
                         //entries.add(ModItems.CYAN_CARAFE);
-                        //entries.add(ModItems.LIGHT_BLUE_CARAFE);
+                        entries.add(ModItems.LIGHT_BLUE_CARAFE);
                         entries.add(ModItems.BLUE_CARAFE);
                         //entries.add(ModItems.PURPLE_CARAFE);
                         //entries.add(ModItems.MAGENTA_CARAFE);
@@ -51,7 +51,7 @@ public class ModItemGroups {
                         //entries.add(ModItems.FILLED_LIME_CARAFE);
                         entries.add(ModItems.FILLED_GREEN_CARAFE);
                         //entries.add(ModItems.FILLED_CYAN_CARAFE);
-                        //entries.add(ModItems.FILLED_LIGHT_BLUE_CARAFE);
+                        entries.add(ModItems.FILLED_LIGHT_BLUE_CARAFE);
                         entries.add(ModItems.FILLED_BLUE_CARAFE);
                         //entries.add(ModItems.FILLED_PURPLE_CARAFE);
                         //entries.add(ModItems.FILLED_MAGENTA_CARAFE);
