@@ -32,12 +32,12 @@ public class ModItemGroups {
                         entries.add(ModItems.YELLOW_CARAFE);
                         entries.add(ModItems.LIME_CARAFE);
                         entries.add(ModItems.GREEN_CARAFE);
-                        //entries.add(ModItems.CYAN_CARAFE);
+                        entries.add(ModItems.CYAN_CARAFE);
                         entries.add(ModItems.LIGHT_BLUE_CARAFE);
                         entries.add(ModItems.BLUE_CARAFE);
-                        //entries.add(ModItems.PURPLE_CARAFE);
-                        //entries.add(ModItems.MAGENTA_CARAFE);
-                        //entries.add(ModItems.PINK_CARAFE);
+                        entries.add(ModItems.PURPLE_CARAFE);
+                        entries.add(ModItems.MAGENTA_CARAFE);
+                        entries.add(ModItems.PINK_CARAFE);
 
                         // filled carafes
                         entries.add(ModItems.FILLED_WHITE_CARAFE);
@@ -50,12 +50,12 @@ public class ModItemGroups {
                         entries.add(ModItems.FILLED_YELLOW_CARAFE);
                         entries.add(ModItems.FILLED_LIME_CARAFE);
                         entries.add(ModItems.FILLED_GREEN_CARAFE);
-                        //entries.add(ModItems.FILLED_CYAN_CARAFE);
+                        entries.add(ModItems.FILLED_CYAN_CARAFE);
                         entries.add(ModItems.FILLED_LIGHT_BLUE_CARAFE);
                         entries.add(ModItems.FILLED_BLUE_CARAFE);
-                        //entries.add(ModItems.FILLED_PURPLE_CARAFE);
-                        //entries.add(ModItems.FILLED_MAGENTA_CARAFE);
-                        //entries.add(ModItems.FILLED_PINK_CARAFE);
+                        entries.add(ModItems.FILLED_PURPLE_CARAFE);
+                        entries.add(ModItems.FILLED_MAGENTA_CARAFE);
+                        entries.add(ModItems.FILLED_PINK_CARAFE);
                     }).build());
 
     public static void registerItemGroups() {

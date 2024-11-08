@@ -46,8 +46,8 @@ public class ModItems {
     public static final Item GREEN_CARAFE = registerItem("green_carafe", new Item(new FabricItemSettings()));
     public static final Item FILLED_GREEN_CARAFE = registerItem("filled_green_carafe", new Item(new FabricItemSettings()));
 
-    //public static final Item CYAN_CARAFE = registerItem("cyan_carafe", new Item(new FabricItemSettings()));
-    //public static final Item FILLED_CYAN_CARAFE = registerItem("filled_cyan_carafe", new Item(new FabricItemSettings()));
+    public static final Item CYAN_CARAFE = registerItem("cyan_carafe", new Item(new FabricItemSettings()));
+    public static final Item FILLED_CYAN_CARAFE = registerItem("filled_cyan_carafe", new Item(new FabricItemSettings()));
 
     public static final Item LIGHT_BLUE_CARAFE = registerItem("light_blue_carafe", new Item(new FabricItemSettings()));
     public static final Item FILLED_LIGHT_BLUE_CARAFE = registerItem("filled_light_blue_carafe", new Item(new FabricItemSettings()));
@@ -55,14 +55,14 @@ public class ModItems {
     public static final Item BLUE_CARAFE = registerItem("blue_carafe", new Item(new FabricItemSettings()));
     public static final Item FILLED_BLUE_CARAFE = registerItem("filled_blue_carafe", new Item(new FabricItemSettings()));
 
-    //public static final Item PURPLE_CARAFE = registerItem("purple_carafe", new Item(new FabricItemSettings()));
-    //public static final Item FILLED_PURPLE_CARAFE = registerItem("filled_purple_carafe", new Item(new FabricItemSettings()));
+    public static final Item PURPLE_CARAFE = registerItem("purple_carafe", new Item(new FabricItemSettings()));
+    public static final Item FILLED_PURPLE_CARAFE = registerItem("filled_purple_carafe", new Item(new FabricItemSettings()));
 
-    //public static final Item MAGENTA_CARAFE = registerItem("magenta_carafe", new Item(new FabricItemSettings()));
-    //public static final Item FILLED_MAGENTA_CARAFE = registerItem("filled_magenta_carafe", new Item(new FabricItemSettings()));
+    public static final Item MAGENTA_CARAFE = registerItem("magenta_carafe", new Item(new FabricItemSettings()));
+    public static final Item FILLED_MAGENTA_CARAFE = registerItem("filled_magenta_carafe", new Item(new FabricItemSettings()));
 
-    //public static final Item PINK_CARAFE = registerItem("pink_carafe", new Item(new FabricItemSettings()));
-    //public static final Item FILLED_PINK_CARAFE = registerItem("filled_pink_carafe", new Item(new FabricItemSettings()));
+    public static final Item PINK_CARAFE = registerItem("pink_carafe", new Item(new FabricItemSettings()));
+    public static final Item FILLED_PINK_CARAFE = registerItem("filled_pink_carafe", new Item(new FabricItemSettings()));
         //end of carafes
     //public static final Item SLAGBUCKET = registerItem("end_stone_slag_bucket", new Item(new FabricItemSettings()));
 
