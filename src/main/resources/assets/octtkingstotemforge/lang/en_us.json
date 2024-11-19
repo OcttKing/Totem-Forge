@@ -38,5 +38,10 @@
   "item.octtkingstotemforge.filled_pink_carafe": "Filled Pink Carafe",
 
 
-  "itemgroup.totemforge": "TotemForge"
+  "itemgroup.totemforge": "TotemForge",
+
+  "death.attack.carafe_damage": "%1$s stopped living",
+  "death.attack.carafe_damage.player": "%1$s stopped living from %2$s",
+  "death.attack.carafe_damage_type": "%1$s stopped living",
+  "death.attack.carafe_damage_type.player": "%1$s stopped living from %2$s"
 }
