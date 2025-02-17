@@ -7,6 +7,7 @@ import net.octtking.totemforge.block.ModBlocks;
 import net.octtking.totemforge.entity.damage.ModDamageSources;
 import net.octtking.totemforge.item.ModItemGroups;
 import net.octtking.totemforge.item.ModItems;
+import net.octtking.totemforge.registry.DamageTypeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,7 @@ public class Octtkingstotemforge implements ModInitializer {
 	public void onInitialize() {
 		//LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
-
+		DamageTypeRegistry.register();
 
 		ModItems.registerModItems();
 

@@ -10,8 +10,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.octtking.totemforge.Octtkingstotemforge;
 
-public interface ModDamageTypes {
-
+public class ModDamageTypes {
+//    public static final RegistryKey<DamageType> CARAFE_DAMAGE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, new Identifier("carafe_damage", ""))
 
 
 

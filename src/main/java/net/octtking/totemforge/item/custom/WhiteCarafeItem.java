@@ -1,7 +1,9 @@
 package net.octtking.totemforge.item.custom;
 
 //import net.octtking.totemforge.nulldamage.CarafeDamage;
+import com.mojang.brigadier.Command;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.damage.DamageType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -9,6 +11,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
@@ -16,7 +20,9 @@ import net.minecraft.world.World;
 import net.octtking.totemforge.Octtkingstotemforge;
 import net.octtking.totemforge.entity.damage.ModDamageTypes;
 import net.octtking.totemforge.item.ModItems;
+import net.octtking.totemforge.registry.DamageTypeRegistry;
 import net.octtking.totemforge.world.WorldMod;
+import org.apache.logging.log4j.core.tools.picocli.CommandLine;
 
 public class WhiteCarafeItem extends Item {
 
@@ -37,16 +43,12 @@ public class WhiteCarafeItem extends Item {
             float curAbsorption = player.getAbsorptionAmount();
 
             if (curHealth <= 12){
-                //player.damage(world.getDamageSources().magic(), 1);
+                 if (!world.isClient() && world instanceof ServerWorld serverWorld) {
+                    player.damage(DamageTypeRegistry.getCarafeDamageType(serverWorld), Integer.MAX_VALUE);
+               }
+                   // player.damage(DamageTypeRegistry.getCarafeDamageType(ServerWorld.),0 );
 
-               // player.damage(world.getModDamageSources().CarafeDamage());
-              //  if (entity instanceof LivingEntity) {
-                   // entity.damage
-                //}
-                //player.setHealth(0.0f);
-                //player.sendMessage(Text.literal(player.getDisplayName());
-                player.damage(world.getDamageSources().create(CARAFE_DAMAGE), 12.f);
-            } else {
+                } else {
                 float dmg = 12 + curAbsorption;
                 player.damage(world.getDamageSources().magic(), dmg);
 
