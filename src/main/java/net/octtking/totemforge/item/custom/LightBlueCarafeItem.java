@@ -18,10 +18,10 @@ import net.octtking.totemforge.Octtkingstotemforge;
 import net.octtking.totemforge.item.ModItems;
 import net.octtking.totemforge.registry.DamageTypeRegistry;
 
-public class WhiteCarafeItem extends Item {
+public class LightBlueCarafeItem extends Item {
     private static final int MAX_USE_TIME = 75;
 
-    public WhiteCarafeItem(Settings settings) {
+    public LightBlueCarafeItem(Settings settings) {
         super(settings);
     }
     public static final RegistryKey<DamageType> CARAFE_DAMAGE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE,
@@ -48,7 +48,7 @@ public class WhiteCarafeItem extends Item {
 
         super.finishUsing(stack, world, user);
         if (returnitem == 1){
-            return new ItemStack(ModItems.FILLED_WHITE_CARAFE);
+            return new ItemStack(ModItems.FILLED_LIGHT_BLUE_CARAFE);
         } else {
             return new ItemStack(Items.AIR);
         }
