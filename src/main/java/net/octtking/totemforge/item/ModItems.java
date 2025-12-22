@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 //import net.minecraft.item.Filled_Carafes;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -64,7 +65,8 @@ public class ModItems {
 
     public static final Item PINK_CARAFE = registerItem("pink_carafe", new PinkCarafeItem(new FabricItemSettings().food(Consumable.EMPTY_CARAFE).maxCount(1)));
     public static final Item FILLED_PINK_CARAFE = registerItem("filled_pink_carafe", new FilledPinkCarafeItem(new FabricItemSettings().food(Consumable.FILLED_CARAFE).maxCount(1)));
-        //end of carafes
+
+    //end of carafes
     //public static final Item SLAGBUCKET = registerItem("end_stone_slag_bucket", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

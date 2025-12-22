@@ -16,6 +16,7 @@ public class ModItemGroups {
             new Identifier(Octtkingstotemforge.MOD_ID, "end_stone_slag_chunk"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.totemforge"))
                     .icon(() -> new ItemStack(Items.TOTEM_OF_UNDYING)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.RAW_VOIDIUM);
                         entries.add(ModItems.SLAGCHUNK);
                         //entries.add(ModItems.SLAGBUCKET);
                         entries.add(ModBlocks.END_STONE_SLAG_BLOCK);
