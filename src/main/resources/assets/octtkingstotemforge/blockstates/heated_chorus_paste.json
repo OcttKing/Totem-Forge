@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "flowing=false": {
+      "model": "octtkingstotemforge:block/chorus_paste_full"
+    },
+    "flowing=true": {
+      "model": "octtkingstotemforge:block/chorus_paste_7"
+    }
+  }
+}

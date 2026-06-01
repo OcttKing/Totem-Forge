@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -11,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.octtking.totemforge.Octtkingstotemforge;
+import net.octtking.totemforge.block.states.ChorusPaste;
 
 public class ModBlocks {
     //What to Register
@@ -18,8 +20,16 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
     public static final Block RAW_VOIDIUM = registerBlock("raw_voidium",
             new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.HONEY)));
-
-
+    public static final Block HEATED_CHORUS_PASTE_SOURCE = registerBlock("heated_chorus_paste",
+            new ChorusPaste.HeatedChorusPasteSourceBlock(FabricBlockSettings.create()
+                    .breakInstantly()
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .nonOpaque()
+                    .allowsSpawning(((state, world, pos, type) -> false))
+                    .noCollision()
+            ));
+    public static final Block HEATED_CHORUS_PASTE_FLOW = registerBlock("heated_chorus_paste_flowing",
+            new ChorusPaste.HeatedChorusPasteFlowingBlock(FabricBlockSettings.copyOf(ModBlocks.HEATED_CHORUS_PASTE_SOURCE).replaceable()));
 
 
     //register as physical block

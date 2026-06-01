@@ -20,7 +20,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SLAGCHUNK);
                         //entries.add(ModItems.SLAGBUCKET);
                         entries.add(ModBlocks.END_STONE_SLAG_BLOCK);
+                        entries.add(ModBlocks.HEATED_CHORUS_PASTE_SOURCE);
+                        entries.add(ModBlocks.HEATED_CHORUS_PASTE_FLOW);
                         entries.add(ModItems.ISITEMNAME);
+
 
                         // carafes
                         entries.add(ModItems.WHITE_CARAFE);

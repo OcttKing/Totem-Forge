@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "octtkingstotemforge:block/heated_chorus_paste"
+  }
+}
